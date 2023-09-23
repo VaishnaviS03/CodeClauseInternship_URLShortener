@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- link to stylesheet-->
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+        <title>URL Shortener</title>
+    </head>
+    <body>
+        <div>
+
+          <h1>My URL Shortener</h1>
+          <hr>
+          <div class="box-1">
+              <form method="post">
+                <label for="url">Enter a URL: &nbsp;&nbsp;&nbsp;</label>
+                <br><br>
+                <input class="input1" type="url" name="n" id="url" size="50" placeholder="Example: https://www.google.com" required>
+                <br><br>
+                <button type="submit" value="Shorten" class="btn1">Shorten</button>
+              </form>
+          </div>
+        </div>
+    </body>
+</html>

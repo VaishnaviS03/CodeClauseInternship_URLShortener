@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- link to stylesheet-->
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+        <title>Shortened URL</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+
+          <h1>My URL Shortener</h1>
+          <hr>
+          <div class="box-1" >
+          <p class="txt1">http://127.0.0.1:5000/{{display}}</p>
+          <br>
+            <a href="http://127.0.0.1:5000/">Go to Home</a>
+          </div>
+        </div>
+    </body>
+</html>
